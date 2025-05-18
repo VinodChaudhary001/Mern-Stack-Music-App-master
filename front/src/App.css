@@ -1,0 +1,78 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+ height:950px;
+  display: flex;
+
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url(img/background.jpg) no-repeat center;
+  background-size: cover;
+  filter: grayscale(100);
+  z-index: -1;
+}
+.slider {
+  position: relative;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.filter-btn {
+  background: rgb(0, 255, 115);
+  border-color: transparent;
+  font-size: 1rem;
+  text-transform: capitalize;
+  margin: 0 0.5rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  color: #fff;
+  cursor: pointer;
+  transition: var(--transition);
+  border-radius: var(--radius);
+}
+
+.image {
+  width: 580px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}

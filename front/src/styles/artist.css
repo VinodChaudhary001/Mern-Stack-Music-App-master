@@ -1,0 +1,177 @@
+.main-section {
+    width: 900px;
+    position: relative;
+    left: 0px;
+    padding: 0 10px;
+}
+.picz{
+    width:100px;
+    cursor: pointer;
+    padding: 10px;
+    list-style-type: none;
+    line-height: 28px;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.header {
+    position: fixed;
+    width: 900px;
+    z-index: 1000;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background: rgb(24, 24, 24);
+}
+             
+.main-section-container {
+    position: relative;
+    top: 50px;
+    padding-bottom: 100px;
+}
+.section-title {
+    font-size: 34px;
+    font-weight: 800;
+    padding: 0 0 20px 0;
+    font-family: 'Proxima Bold', Georgia, sans-serif;
+}
+.browse-view-container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+.category-item {
+    padding: 10px;
+    list-style-type: none;
+    line-height: 28px;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    width: 200px;
+    height:200px;
+    cursor: pointer;
+}
+.category-image {
+    position: relative;
+}
+.category-image img {
+    width: 100%;
+    height: 200px;
+}
+.album-name{
+    position: absolute;
+   top: 190px; 
+}
+p{
+    color: #fff;
+}
+.track-search-container input {
+    background: #fff;
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+    padding: 4px 4px 4px 10px;
+    outline: none;
+}
+.header {
+    position: fixed;
+    width: 900px;
+    z-index: 1000;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background: rgb(24, 24, 24);
+}
+.track-search-container {
+    position: relative;
+    top: 10px;
+}
+
+button {
+    background: none;
+    border: none;
+    outline: none;
+}
+.header-title {
+    font-size: 48px;
+    padding: 3px 0 5px 0;
+}
+.browse-headers {
+    display: -ms-flexbox;
+    display: flex;
+}
+.browse-headers p:first-child {
+    margin: 0 20px 0 0;
+}
+
+
+.browse-headers .active {
+    position: relative;
+}
+.browse-headers p {
+    color: rgb(179, 179, 179);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Proxima Thin', Georgia, sans-serif;
+    letter-spacing: 1px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.section-title {
+    font-size: 34px;
+    font-weight: 800;
+    padding: 0 0 20px 0;
+    font-family: 'Proxima Bold', Georgia, sans-serif;
+}
+.fa-play-circle-o{
+    content: "\f01d";
+}
+.play-song {
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #ccc;
+    cursor: pointer;
+    -webkit-text-stroke: 6px rgb(24, 24, 24);
+    z-index: -1;
+}
+.playsong fa{
+    cursor: pointer;
+}
+.loved {
+    color: #49e12e !important;
+    filter: drop-shadow(0px 0px 4px #49e12e);
+}
+.footer {
+  
+    width: 100%;
+    bottom: 10;
+    left: 0;
+    background: rgb(40, 40, 40);
+    height: 130px;
+    z-index: 2;
+}
+.filter-btns {
+
+
+
+    text-transform: capitalize;
+  
+    letter-spacing: 1px;
+    padding: 0.375rem 0.75rem;
+    color: #fff;
+    cursor: pointer;
+   
+  }
